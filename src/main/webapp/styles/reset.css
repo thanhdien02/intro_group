@@ -1,0 +1,12 @@
+@charset "ISO-8859-1";
+html{
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}

@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+h1{
+	margin-top: 50px;
+	text-align: center;
+	color: blue;
+}
+.container{
+	margin-top: 70px;
+	display:flex;
+	justify-content: space-evenly;
+}
+.member-item{
+	position: relative;
+	background-color: #cbdecb;
+	min-width: 335px;
+	min-height: 400px;
+	text-align: center;
+}
+.member-item .img1{
+	height: 200px;
+	width: 100%;
+}
+
+.member-item .img2{
+	position: absolute;
+	height: 120px;
+	width: 120px;
+	object-fit: cover;
+	border-radius: 50%;
+	top: 25%;
+	left: 50%;
+  	transform: translate(-50%, -5%);
+	border: 5px solid white;
+}
+.member-item-content{
+	padding: 20px 20px;
+}
+ul{
+	display: flex;
+	justify-content: space-between;
+	margin-right: 40px;
+	margin-top: 40px;
+}
+hr{
+	margin-top: 30px;
+}
+button{
+	margin-top: 100px;
+	background-color: aqua;
+	padding: 10px 20px;
+	margin-left: 20px;
+	border: none;
+	font-size: 18px;
+	text-align: center;
+	border-radius: 10px;
+}
+button:hover{
+	color: white;
+	background-color: rgb(62, 104, 71);
+}
+.exercise{
+	text-align: center;
+}
